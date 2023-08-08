@@ -1,9 +1,37 @@
-Cloning a Repository 
+#Cloning a Repository 
 git clone https://github.com/dchoate119/Sandbox
 
-"App Store" 
+#"App Store" 
 sudo apt get
 
-Edit a readme file
+#Edit a readme file
 subl README.md
 
+#Making a new folder 
+mkdir 
+#Delete folder
+rmdir
+
+#Change directory
+cd
+#Go back one segment
+cd ..
+
+#Keeps track of files about to be saved 
+git add *
+#Spanshot of all files, stores it onto computer
+git commit -m "MAKE A NOTE ABOUT WHAT WAS CHANGED"
+#Push to github - requires username and password
+git push 
+#Bring updated changes to machine 
+git pull 
+#Ignoring local changes (add most up to date code)
+git stash 
+
+#When conda does not work in terminal**
+source anaconda3/etc/profile.d/conda.sh
+
+#Environment labels for anaconda 
+(base) or (py39)
+
+#Installed: numpy, matplotlib, tensorflow
