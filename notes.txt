@@ -1,0 +1,9 @@
+Cloning a Repository 
+git clone https://github.com/dchoate119/Sandbox
+
+"App Store" 
+sudo apt get
+
+Edit a readme file
+subl README.md
+
