@@ -34,4 +34,14 @@ source anaconda3/etc/profile.d/conda.sh
 #Environment labels for anaconda 
 (base) or (py39)
 
-#Installed: numpy, matplotlib, tensorflow
+#Installed: numpy, matplotlib, tensorflow, vedo 
+
+jupyter notebook
+
+# Entrance into virtual environment with all ICET requirement and such downloaded 
+# First step
+conda activate py39
+
+
+#matt's notes on converting various datasets to xyz and ground truth data
+https://github.com/mcdermatt/ASAR/blob/main/v3/scan_match.py
