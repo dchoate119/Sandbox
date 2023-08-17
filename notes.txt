@@ -17,6 +17,7 @@ cd
 #Go back one segment
 cd ..
 
+#SAVING AND UPLOADING TO GITHUB
 #Keeps track of files about to be saved 
 git add *
 #Spanshot of all files, stores it onto computer
@@ -36,6 +37,7 @@ source anaconda3/etc/profile.d/conda.sh
 
 #Installed: numpy, matplotlib, tensorflow, vedo 
 
+#Pull up a Jupyter notebook
 jupyter notebook
 
 # Entrance into virtual environment with all ICET requirement and such downloaded 
